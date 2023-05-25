@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Crash
 %define devname %mklibname KF6Crash -d
-%define git 20230513
+%define git 20230525
 
 Name: kf6-kcrash
 Version: 5.240.0

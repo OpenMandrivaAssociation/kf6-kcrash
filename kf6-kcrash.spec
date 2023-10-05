@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Crash
 %define devname %mklibname KF6Crash -d
-%define git 20230927
+%define git 20231005
 
 Name: kf6-kcrash
 Version: 5.240.0
@@ -70,7 +70,6 @@ Graceful handling of application crashes
 %files -n %{devname}
 %{_includedir}/KF6/KCrash
 %{_libdir}/cmake/KF6Crash
-%{_qtdir}/mkspecs/modules/qt_KCrash.pri
 %{_qtdir}/doc/KF6Crash.*
 
 %files -n %{libname}
